@@ -1,5 +1,5 @@
 package br.com.dio.exercicios.estruturasderepeticao.arrays;
-//Write a Java program to sort a numeric array and a string array.
+
 //Escreva um programa Java para classificar uma matriz numérica e uma matriz de string.
 
 import java.util.Arrays;
@@ -20,12 +20,12 @@ public class Ex12 {
                 "C Programming",
                 "C++"
         };
-        System.out.println("Original numeric array : "+Arrays.toString(my_array1));
+        System.out.println("Matriz numérica original : "+Arrays.toString(my_array1));
         Arrays.sort(my_array1);
-        System.out.println("Sorted numeric array : "+Arrays.toString(my_array1));
+        System.out.println("Matriz numérica classificada : "+Arrays.toString(my_array1));
 
-        System.out.println("Original string array : "+Arrays.toString(my_array2));
+        System.out.println("Matriz de string original : "+Arrays.toString(my_array2));
         Arrays.sort(my_array2);
-        System.out.println("Sorted string array : "+Arrays.toString(my_array2));
+        System.out.println("Matriz de string classificada : "+Arrays.toString(my_array2));
     }
 }

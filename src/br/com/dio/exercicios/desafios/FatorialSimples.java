@@ -9,8 +9,8 @@ Saída: A saída contém um valor inteiro, correspondente ao fatorial de N.
 
 Exemplo de Entrada	                   Exemplo de Saída
 4                                              24
-
 Agradecimentos a Cassio F. */
+
 import java.util.Scanner;
 
 public class FatorialSimples {
